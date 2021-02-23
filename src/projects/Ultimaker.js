@@ -20,7 +20,7 @@ import img12 from '../image/ultimaker/img12.PNG';
 import img13 from '../image/ultimaker/img13.png';
 import img14 from '../image/ultimaker/img14.png';
 import img15 from '../image/ultimaker/img15.gif';
-import img16 from '../image/ultimaker/img16.png';
+
 import img17 from '../image/ultimaker/img17.png';
 import img20 from '../image/ultimaker/img20.png';
 
@@ -91,9 +91,7 @@ class Ultimaker extends React.Component {
         return (
             <div className="ultimaker">
                 <ProjectNav style={style.styleTitle} name="Ultimaker CuraFlow" type="Tablet Application/ Data Dashboard" time="2019.02-2019.06" role="Group Work" firm="Ultimaker.B.V." img={img00} imgwidth="120%" />
-
-
-
+                
                 <div className="project-content ">
                     <section className="summary grey">
                         <div className="body">
@@ -216,14 +214,13 @@ class Ultimaker extends React.Component {
 
                             <div className="content-title-third divide">Result</div>
                             <div className="content-text">
-                                In conclusion, participants prefer:
-                                <ul>
-                                    <li>Work on the go with mobile app</li>
-                                    <li>Information overview offered by desktop big screen</li>
-                                </ul>
-                                Our next step is to combine these two concepts.
+                                In conclusion, we figured out two main insights:
+                                <div className="content-info-block block-lightgrey">
+                                    <li>"Information Overview" and "Work on the Go" both give a feeling of control.</li>
+                                    <li> The "current status" and "coming task" should be the prioritized information.</li>
+                                </div>
+                                These insights direct us to make design decisions.
                             </div>
-                           
                         </div>
                     </section>
 

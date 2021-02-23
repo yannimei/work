@@ -47,7 +47,7 @@ class About extends React.Component {
 
                             <h3>Prototyping with programming (Web & XR)</h3>
                             <p>
-                                Since I am working in science institution, my design practice is always embedded in technology exploration. My focus in on XR development (C# for Unity, 3d production), and front-end development (React). I code this website by myself! My knowledge in coding enable me to better communicate about design visions and technology feasibility with developers.
+                                Since I am working in science institution, my design practice is always embedded in technology exploration. My focus in on XR development (C# for Unity, 3d production), and front-end development (React). I <a id="code-link" href="https://github.com/yannimei/work/tree/master" target="blank">code{"\uD83E\uDC65"}</a> this website by myself! My knowledge in coding enable me to better communicate about design visions and technology feasibility with developers.
                         </p>
 
                             <h3>Commercial & academic experience.</h3>

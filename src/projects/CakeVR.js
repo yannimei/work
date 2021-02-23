@@ -22,13 +22,15 @@ import img14 from '../image/cakevr/img14.png';
 import img15 from '../image/cakevr/img15.png';
 import img16 from '../image/cakevr/img16.png';
 
+import paper from '../file/cakeVR.pdf';
+
 
 const style = {
     styleTitle:{
-        background: '#370617'
+        background: '#6a040f'
     },
     styleRecgonition: {
-        background: '#6a040f'
+        background: '#ad2831'
     }
     
 }
@@ -107,7 +109,7 @@ class CakeVR extends React.Component {
                         <div className="body">
                             <div className="content-title">Recognition</div>
                             <div className="content-text">This is a European Union funded project,
-                                and is accepted as a full academic paper by ACM CHI 2021 (Tier-1 HCI conference, acceptance is about 25% ).</div>
+                                and is accepted as a full academic paper by ACM CHI 2021, the Tier-1 HCI conference,of which acceptance is about 25%. <a href={paper} target="blank" style={{ color: "white" }}><b>(PDF)</b></a></div>
                         </div>
                     </section>
 

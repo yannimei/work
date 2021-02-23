@@ -353,6 +353,10 @@
     color: darkgrey;
     text-decoration: underline solid #EF9600 2px;
 }
+.footerText a:hover {
+    color: #EF9600;
+    transition: 0.5s;
+}
 
 
 /*AllWorks*/
@@ -576,7 +580,7 @@
 
 /*cakevr*/
 .cakevr .grey {
-    background: #101010;
+    background: #250902;
     color: white;
     padding: 50px 0 50px 0;
 }
@@ -677,6 +681,17 @@
     font-family: 'Newsreader-Italic';
     font-size: 21px;
     margin: 25px 0px 25px 15px;
+}
+
+/*code-link*/
+#code-link{
+    text-decoration: none;
+    color:#EF9600;
+    font-family: "NotoSansJP-Bold";
+}
+#code-link:hover {
+    color: black !important;
+    transition: 0.5s;
 }
 
 

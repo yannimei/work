@@ -24,17 +24,7 @@ class App extends React.Component{
             </div>
         );
 
-        //return (
-        //    <div>
-        //        <Route path="/" exact component={Main} />
-        //        <Route path="/art" component={Art} />
-        //        <Route path="/about" component={About} />
-        //        <Route path="/cakevr" component={CakeVR} />
-        //        <Route path="/ultimaker" component={Ultimaker} />
-        //        <Footer />
-        //    </div>
-        //);
-
+      
         //return (
         //    <div>
         //        <Router basename="/work">
