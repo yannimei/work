@@ -31,9 +31,9 @@ class Main extends React.Component {
                         <div className="navigation">
                                 <div className="yanni active">Yanni Mei </div>
                             <div className="selection main">
-                                <Link to='/work/' className="active"><div className="work">Work</div></Link>
-                                <Link to='/work/art'><div className="art">3D_Creative</div></Link>
-                                <Link to='/work/about'><div className="about ">About</div></Link>
+                                <Link to='/' className="active"><div className="work">Work</div></Link>
+                                <Link to='/art'><div className="art">3D_Creative</div></Link>
+                                <Link to='/about'><div className="about ">About</div></Link>
                             </div>
                          </div>
                          <div className="navigation">
@@ -46,13 +46,13 @@ class Main extends React.Component {
                                 <span>Hey! here</span>
                                 <img className='greet-emoji' src={this.state.greet} alt='greet' />
                             </div>
-                        <div className="self-dis">I am <Link to='/work/about'>Yanni</Link>, an experience designer at Dutch national scientific instituion (<a href="https://www.cwi.nl/" target="_blank">CWI</a>). <br />
+                        <div className="self-dis">I am <Link to='/about'>Yanni</Link>, an experience designer at Dutch national scientific instituion (<a href="https://www.cwi.nl/" target="_blank">CWI</a>). <br />
                             I create novel experience by logically applying proper design methodology.</div>
                     </section>
 
                     <section className="project">
-                        <Project src={cake} name="CakeVR" caption="Dual-user VR application (Oculus)" width="125%"challenge="How might we utilize VR to improve the communication efficiency for remote co-design?" link="/work/CakeVR" />
-                        <Project src={ultimaker} name="Ultimaker CuraFlow" caption="Tablet application/ Data Dashboard" challenge=" How might we achieve a high level and feeling of control for 3d printer operators' work?" link="/work/ultimaker"/>
+                        <Project src={cake} name="CakeVR" caption="Dual-user VR application (Oculus)" width="125%"challenge="How might we utilize VR to improve the communication efficiency for remote co-design?" link="/cakevr" />
+                        <Project src={ultimaker} name="Ultimaker CuraFlow" caption="Tablet application/ Data Dashboard" challenge=" How might we achieve a high level and feeling of control for 3d printer operators' work?" link="/ultimaker"/>
                     </section>
 
                 

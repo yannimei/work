@@ -7,23 +7,46 @@ import Footer from './Footer';
 import CakeVR from './projects/CakeVR.js';
 import Ultimaker from './projects/Ultimaker.js';
 //first step
-import { BrowserRouter as Router, Switch, Route }from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route }from 'react-router-dom';
 
 class App extends React.Component{
     render(){
         return (
             <div>
-                
-                <Router>
-                    <Route path="/work/" exact component={Main} />
-                    <Route path="/work/art" component={Art} />
-                    <Route path="/work/about" component={About} />
-                    <Route path="/work/cakevr" component={CakeVR} />
-                    <Route path="/work/ultimaker" component={Ultimaker} />
+                <HashRouter>
+                    <Route path="/" exact component={Main} />
+                    <Route path="/art" component={Art} />
+                    <Route path="/about" component={About} />
+                    <Route path="/cakevr" component={CakeVR} />
+                    <Route path="/ultimaker" component={Ultimaker} />
                     <Footer />
-                </Router>
+                </HashRouter>
             </div>
         );
+
+        //return (
+        //    <div>
+        //        <Route path="/" exact component={Main} />
+        //        <Route path="/art" component={Art} />
+        //        <Route path="/about" component={About} />
+        //        <Route path="/cakevr" component={CakeVR} />
+        //        <Route path="/ultimaker" component={Ultimaker} />
+        //        <Footer />
+        //    </div>
+        //);
+
+        //return (
+        //    <div>
+        //        <Router basename="/work">
+        //            <Route path="/" exact component={Main} />
+        //            <Route path="/art" component={Art} />
+        //            <Route path="/about" component={About} />
+        //            <Route path="/cakevr" component={CakeVR} />
+        //            <Route path="/ultimaker" component={Ultimaker} />
+        //            <Footer />
+        //        </Router>
+        //    </div>
+        //);
     }
 }
 

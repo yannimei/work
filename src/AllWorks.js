@@ -33,8 +33,8 @@ class AllWorks extends React.Component {
             <section className="allworks-container">
                 <div className="body">
                     <div className="work-container">
-                        <div className="work-selection"><Link to="/work/cakevr" className={this.state.one}>Cake VR</Link></div>
-                        <div className="work-selection"><Link to="/work/ultimaker" className={this.state.two}>Ultimaker CuraFlow</Link></div>
+                        <div className="work-selection"><Link to="/cakevr" className={this.state.one}>Cake VR</Link></div>
+                        <div className="work-selection"><Link to="/ultimaker" className={this.state.two}>Ultimaker CuraFlow</Link></div>
                     </div>
                 </div>
             </section>

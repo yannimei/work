@@ -21,9 +21,9 @@ class About extends React.Component {
                         <div className="navigation">
                             <div className="yanni">Yanni Mei </div>
                             <div className="selection main">
-                                <Link to='/work/' ><div className="work">Work</div></Link>
-                                <Link to='/work/art'><div className="art">3D_Creative</div></Link>
-                                <Link to='/work/about' className="active"><div className="about ">About</div></Link>
+                                <Link to='/' ><div className="work">Work</div></Link>
+                                <Link to='/art'><div className="art">3D_Creative</div></Link>
+                                <Link to='/about' className="active"><div className="about ">About</div></Link>
                             </div>
                         </div>
                         <div className="navigation">
