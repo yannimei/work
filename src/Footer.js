@@ -23,7 +23,7 @@ class Footer extends React.Component {
                 <div className="footer-container">
                     <div className="social">
                         <div className="icon">
-                            <a href=" " target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/yannimei" target="_blank" rel="noopener noreferrer">
                                 <img className="github" src={this.state.github} alt="github Logo" />
                             </a>
                         </div>
@@ -39,7 +39,7 @@ class Footer extends React.Component {
                         </div>
                     </div>
                     <div className="footerText">
-                        © YanniMei {year} - Built with <a href="https://reactjs.org/docs/hello-world.html" target="_blank">React.js</a>, Source code at <a href="" target="_blank">GitHub</a>
+                        © YanniMei {year} - Built with <a href="https://reactjs.org/docs/hello-world.html" target="_blank">React.js</a>, Source code at <a href="https://github.com/yannimei/work/tree/master" target="_blank">GitHub</a>
                      </div>
                  </div>
             </div>

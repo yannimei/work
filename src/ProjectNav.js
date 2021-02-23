@@ -14,11 +14,11 @@ class ProjectNav extends React.Component {
                 <div className="body">
                     <section className="header">
                         <div className="navigation">
-                            <div className="nav-inactive"><Link to='/designwork/about/'>Yanni Mei</Link></div>
+                            <div className="nav-inactive"><Link to='/work/about/'>Yanni Mei</Link></div>
                             <div className="selection projectnav">
-                                <div className="nav-inactive"><Link to='/designwork/'>Work</Link></div>
-                                <div className="nav-inactive"> <Link to='/designwork/art'>3D_Creative</Link></div>
-                                <div className="nav-inactive"><Link to='/designwork/about'>About</Link></div>
+                                <div className="nav-inactive"><Link to='/work/'>Work</Link></div>
+                                <div className="nav-inactive"> <Link to='/work/art'>3D_Creative</Link></div>
+                                <div className="nav-inactive"><Link to='/work/about'>About</Link></div>
                             </div>
                         </div>
                     </section>

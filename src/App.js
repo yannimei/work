@@ -15,11 +15,11 @@ class App extends React.Component{
             <div>
                 
                 <Router>
-                    <Route path="/designwork/" exact component={Main} />
-                    <Route path="/designwork/art" component={Art} />
-                    <Route path="/designwork/about" component={About} />
-                    <Route path="/designwork/cakevr" component={CakeVR} />
-                    <Route path="/designwork/ultimaker" component={Ultimaker} />
+                    <Route path="/work/" exact component={Main} />
+                    <Route path="/work/art" component={Art} />
+                    <Route path="/work/about" component={About} />
+                    <Route path="/work/cakevr" component={CakeVR} />
+                    <Route path="/work/ultimaker" component={Ultimaker} />
                     <Footer />
                 </Router>
             </div>

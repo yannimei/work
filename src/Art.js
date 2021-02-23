@@ -23,9 +23,9 @@ class Art extends React.Component{
                         <div className="navigation">
                             <div className="yanni">Yanni Mei </div>
                             <div className="selection main">
-                                <Link to='/designwork/' ><div className="work">Work</div></Link>
-                                <Link to='/designwork/art' className="active"><div className="art">3D_Creative</div></Link>
-                                <Link to='/designwork/about'><div className="about ">About</div></Link>
+                                <Link to='/work/' ><div className="work">Work</div></Link>
+                                <Link to='/work/art' className="active"><div className="art">3D_Creative</div></Link>
+                                <Link to='/work/about'><div className="about ">About</div></Link>
                             </div>
                         </div>
                         <div className="navigation">
