@@ -9,6 +9,7 @@ class AllWorks extends React.Component {
         this.state = {
             one: "one work-inactive",
             two: "two work-inactive",
+            three: "three work-inactive",
         }
     }
 
@@ -20,6 +21,9 @@ class AllWorks extends React.Component {
                 break;
             case 'two':
                 this.setState({ two: "two work-active" });
+                break;
+            case 'three':
+                this.setState({ three: "three work-active" });
                 break;
         };
     }
@@ -35,6 +39,7 @@ class AllWorks extends React.Component {
                     <div className="work-container">
                         <div className="work-selection"><Link to="/cakevr" className={this.state.one}>Cake VR</Link></div>
                         <div className="work-selection"><Link to="/ultimaker" className={this.state.two}>Ultimaker CuraFlow</Link></div>
+                        <div className="work-selection"><Link to="/datadashboard" className={this.state.three}>NPS Dashboard</Link></div>
                     </div>
                 </div>
             </section>

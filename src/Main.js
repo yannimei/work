@@ -4,6 +4,7 @@ import './App.css';
 import greet from './image/icons/greet.png'
 import cake from './image/cover/cake.gif'
 import ultimaker from './image/cover/ultimaker.gif'
+import data from './image/cover/data.png'
 import { Project } from './Project';
 
 
@@ -52,10 +53,10 @@ class Main extends React.Component {
 
                     <section className="project">
                         <Project src={cake} name="CakeVR" caption="Dual-user VR application (Oculus)" width="125%"challenge="How might we utilize VR to improve the communication efficiency for remote co-design?" link="/cakevr" />
-                        <Project src={ultimaker} name="Ultimaker CuraFlow" caption="Tablet application/ Data Dashboard" challenge=" How might we achieve a high level and feeling of control for 3d printer operators' work?" link="/ultimaker"/>
+                        <Project src={ultimaker} name="Ultimaker CuraFlow" caption="Tablet application/ Data Dashboard" challenge=" How might we achieve a high level and feeling of control for 3d printer operators' work?" link="/ultimaker" />
+                        <Project src={data} name="NPS Dashboard [Commercial]" caption="Desktop application/ Business Software " challenge="How might we organize and visualize user feedback data for in-house product team?" link="/datadashboard" />
                     </section>
-
-                
+                    
                 </div>
             </div>
             

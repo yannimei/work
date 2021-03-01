@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src"
+    "\\src",
+    "\\src\\file",
+    "\\src\\image",
+    "\\src\\image\\cover",
+    "\\src\\projects"
   ],
-  "SelectedNode": "\\src\\Main.js",
+  "SelectedNode": "\\src\\projects\\DataDashboard.js",
   "PreviewInSolutionExplorer": false
 }

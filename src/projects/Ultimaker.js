@@ -22,6 +22,7 @@ import img14 from '../image/ultimaker/img14.png';
 import img15 from '../image/ultimaker/img15.gif';
 
 import img17 from '../image/ultimaker/img17.png';
+import img18 from '../image/ultimaker/img18.png';
 import img20 from '../image/ultimaker/img20.png';
 
 
@@ -90,7 +91,7 @@ class Ultimaker extends React.Component {
     render(){
         return (
             <div className="ultimaker">
-                <ProjectNav style={style.styleTitle} name="Ultimaker CuraFlow" type="Tablet Application/ Data Dashboard" time="2019.02-2019.06" role="Group Work" firm="Ultimaker.B.V." img={img00} imgwidth="120%" />
+                <ProjectNav style={style.styleTitle} name="Ultimaker CuraFlow" type="Tablet Application/ Data Dashboard" time="2019.02-2019.06" role="Group Work" firm="Ultimaker.B.V." img={img00} imgwidth="110%" />
                 
                 <div className="project-content ">
                     <section className="summary grey">
@@ -255,11 +256,17 @@ class Ultimaker extends React.Component {
                             </div>
                             
                             <div className="content-title-second divide">Prototype</div>
-                            <div className="content-text">As shown above, we made an initial prototype with Adobe XD, this prototype would be tested for the usability evaluation.</div>
+                            <div className="content-title-third divide">Information Architecture</div>
+                            <div className="content-figure">
+                                <img className="full-img img-shadow" src={img18} />
+                            </div>
+
+                            <div className="content-title-third divide">Clickable Prototype</div>
                             <div className="content-figure-two">
                                 <img src={img12} className="img-shadow" />
                                 <img src={img11} className="img-shadow"  />
                             </div>
+                            <div className="content-text">As shown above, we made an initial prototype with Adobe XD, this prototype would be tested for the usability evaluation.</div>
 
                         </div>  
                     </section>

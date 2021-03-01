@@ -33,7 +33,7 @@ class ProjectNav extends React.Component {
                             </div>
                         </div>
                         <div className="project-right-img">
-                            <img src={this.props.img} width={this.props.imgwidth}/>
+                            <img className="center" src={this.props.img} width={this.props.imgwidth} />
                         </div>
                     </section>
                 </div>

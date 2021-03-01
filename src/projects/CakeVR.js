@@ -102,7 +102,7 @@ class CakeVR extends React.Component {
     render() {
         return (
             <div className="cakevr">
-                <ProjectNav style={style.styleTitle} name="Cake VR" type="Dual-user VR Application (Oculus)" time="2020.02-2020.08" role="Independent Work" firm="The Dutch National Institution of Mathematics and Computer Science" img={img12} imgwidth="150%"/>
+                <ProjectNav style={style.styleTitle} name="Cake VR" type="Dual-user VR Application (Oculus)" time="2020.02-2020.08" role="Independent Work" firm="The Dutch National Institution of Mathematics and Computer Science" img={img12} imgwidth="120%"/>
 
                 <div className="project-content cakevr">
                     <section className="recognition grey" style={style.styleRecgonition}>
