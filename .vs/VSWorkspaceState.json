@@ -6,8 +6,9 @@
     "\\src\\file",
     "\\src\\image",
     "\\src\\image\\cover",
+    "\\src\\image\\data",
     "\\src\\projects"
   ],
-  "SelectedNode": "\\src\\projects\\DataDashboard.js",
+  "SelectedNode": "\\src\\image\\data",
   "PreviewInSolutionExplorer": false
 }

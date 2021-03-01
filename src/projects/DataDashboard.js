@@ -135,7 +135,7 @@ class DataDashboard extends React.Component {
 
                             <div className="sub-task img-shadow">
                                 <div className="content-title-second">UX Document</div>
-                                <div className="content-text">I made the UX requirements with PowerPoint to communicate the UX flow to the full-stack developers. In this project, I place more focus on explaining:
+                                <div className="content-text">I made the UX documents to communicate the UX requirements with the full-stack developers. In this project, I place more focus on explaining:
                                     <ul>
                                         <li>Data source and type </li>
                                         <li>Data process method</li>
