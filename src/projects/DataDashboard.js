@@ -7,8 +7,8 @@ import '../App.css';
 import img00 from '../image/data/img00.png';
 import img01 from '../image/data/img01.png';
 import img03 from '../image/data/img03.png';
-import img04 from '../image/data/img04.png';
-import img05 from '../image/data/img05.png';
+
+import img05 from '../image/data/img05.gif';
 import img06 from '../image/data/img06.png';
 import img from '../image/data/img.png';
 
