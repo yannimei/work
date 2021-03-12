@@ -35,7 +35,7 @@ class Art extends React.Component{
 
                     <section className="art-intro">
                         <p>This is my personal learning, exploring and experimenting experience of 3D design and Blender.
-                            I post my daily work on <a href="https://www.instagram.com/ymei_3dimension/">@ymei_3dimension</a> to record my exploration path. 
+                            I post my daily work on <a href="https://www.instagram.com/ymei_3dimension/" target="_blank">@ymei_3dimension</a> to record my exploration path. 
                             Below are some selected works I am fond of ;)
                      </p>
                     </section>

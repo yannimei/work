@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './App.css';
 import greet from './image/icons/greet.png'
 import cake from './image/cover/cake.gif'
-import ultimaker from './image/cover/ultimaker.gif'
+import ultimaker from './image/cover/ultimaker.png'
 import data from './image/cover/data.png'
 import { Project } from './Project';
 

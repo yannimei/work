@@ -8,6 +8,8 @@ import img00 from '../image/data/img00.png';
 import img01 from '../image/data/img01.png';
 import img03 from '../image/data/img03.png';
 import img04 from '../image/data/img04.png';
+import img05 from '../image/data/img05.png';
+import img06 from '../image/data/img06.png';
 import img from '../image/data/img.png';
 
 
@@ -49,11 +51,18 @@ class DataDashboard extends React.Component {
 
                     <section className="focus lightgrey">
                         <div className="body">
-                            <div className="content-title">Showcase Focus</div>
-                            <div className="content-text">Due to NDA, I cannot display the detailed content. Here, I put more focus on my contribution in this project.</div>
+                            <div className="content-title">NDA</div>
+                            <div className="content-text">All the data is removed.</div>
                         </div>
                     </section>
 
+                    <section className="show-img" >
+                        <div className="content-figure-bg">
+                            <img className="full-img" src={img06} />
+                        </div>
+                    </section>
+
+                    
                     <section className="collaboration white">
                         <div className="body">
                             <div className="content-title">Collaboration</div>
@@ -94,7 +103,9 @@ class DataDashboard extends React.Component {
                     <section className="show green">
                         <div className="body">
                             <div className="content-title">My Task</div>
+                        </div>
 
+                        <div className="body-wide">
                             <div className="sub-task img-shadow">
                                 <div className="content-title-second">Data Strategy</div>
                                 <div className="content-text">I collaborated with the project manager to decide how to organize the NPS data (the NPS questionnaires results). We collaboratively defined:
@@ -122,14 +133,14 @@ class DataDashboard extends React.Component {
                                 <div className="content-title-third">UI Components</div>
                                 <div className="content-text">I defined the format of UI components including top bar, side navigation bar, filter bar, toggle box, option box, etc.</div>
                                 <div className="content-figure">
-                                    <img className="shrink-img" src={img03} />
+                                    <img className="full-img" src={img03} />
                                 </div>
                                 
 
                                 <div className="content-title-third divide">Visualization of different types of data</div>
                                 <div className="content-text">I defined the visualization strategy based on data type.</div>
                                 <div className="content-figure">
-                                    <img className="shrink-img" src={img04} />
+                                    <img className="full-img" src={img05} />
                                 </div>
                             </div>
 
@@ -146,8 +157,8 @@ class DataDashboard extends React.Component {
                                     <img className="full-img" src={img} />
                                 </div>
                             </div>
-                            
                         </div>
+   
                     </section>
 
                     <section className="result white">
