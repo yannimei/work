@@ -29,7 +29,7 @@ class DataDashboard extends React.Component {
     render(){
         return (
             <div className="datadashboard">
-                <ProjectNav style={style.styleTitle} name="NPS Dashboard" type="Desktop Application/ Business software" time="2019.10-2020.01" role="UX Design" firm="One Mobile Device Supplier" img={img00} imgwidth="140%" />
+                <ProjectNav style={style.styleTitle} name="NPS Dashboard" type="Desktop Application/ Business software" time="2019.10-2020.01" role="UX Design" firm="One mobile supplier in China" img={img00} imgwidth="140%" />
 
                 <div className="project-content ">
                     <section className="summary grey">
@@ -52,18 +52,18 @@ class DataDashboard extends React.Component {
                     <section className="focus lightgrey">
                         <div className="body">
                             <div className="content-title">NDA</div>
-                            <div className="content-text">All the data is removed.</div>
+                            <div className="content-text">Due to NDA, I cannot give detailed discription on UX design. Thus, I will focus on introducing my tasks. Also, all the data here is removed.</div>
                         </div>
                     </section>
 
-                    <section className="show-img" >
-                        <div className="content-figure-bg">
+                   <section className="show-img" >
+                       <div className="content-figure-bg">
                             <img className="full-img" src={img06} />
-                        </div>
+                       </div>
                     </section>
 
                     
-                    <section className="collaboration white">
+                    <section className="collaboration lightgrey">
                         <div className="body">
                             <div className="content-title">Collaboration</div>
                             <div className="content-title-second">1 Project Manager (Statistics Background)</div>
@@ -178,8 +178,7 @@ class DataDashboard extends React.Component {
             )
 
         }
- }
-
+}
 
 
 
