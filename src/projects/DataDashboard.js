@@ -79,7 +79,7 @@ class DataDashboard extends React.Component {
                             <div className="content-text">One mobile device supplier company found that the customer stickiness of its in-house mobile applications is decreasing. They need a method for them scientifically to figure out the reason behind, and explore the opportunities for product improvement.</div>
                         </div>
                     </section>
-
+                    S
                     <section className="approach white">
                         <div className="body">
                             <div className="content-title">Approach</div>

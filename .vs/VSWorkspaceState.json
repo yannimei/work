@@ -5,10 +5,9 @@
     "\\src",
     "\\src\\file",
     "\\src\\image",
-    "\\src\\image\\cover",
-    "\\src\\image\\data",
+    "\\src\\image\\mediascape",
     "\\src\\projects"
   ],
-  "SelectedNode": "\\src\\projects\\DataDashboard.js",
+  "SelectedNode": "\\src\\projects\\Mediascape.js",
   "PreviewInSolutionExplorer": false
 }

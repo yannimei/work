@@ -33,26 +33,30 @@
 /*style for Main*/
 
 .ultimaker,
-.cakevr {
+.cakevr,
+.datadashboard,
+.mediascape {
     width: 100%;
     display: block;
 }
 
+
 .container {
     width: 100%;
-    /*background: #0f4c81;*/
-    background: #f4f4f4;
+    
+    /*background: #f4f4f4;*/
     display: block;
     padding-bottom: 20px;
 }
 .body {
+    /*width: 80%;*/
     width: 784px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 }
 .header {
     font-family: 'NotoSansJP-Bold';
-    font-size: 22px;
+    font-size: 18px;
     width: 100%;
     height: 100px;
     padding-top: 60px;
@@ -78,7 +82,7 @@
     justify-content: space-between;
 }
 .selection {
-    width: 310px;
+    width: 270px;
     float: right; 
 }
 
@@ -103,14 +107,14 @@
 
 .body .introduction {
     width: 100%;
-    height: 150px;
-    margin: 60px auto 0 auto;
+    margin: 60px auto 40px auto;
     color: #EF9600;
 }
 .self-dis a {
     color: #EF9600;
     text-decoration: underline solid #EF9600 2px;
 }
+
 
 .introduction .greeting {
     display:flex;
@@ -127,8 +131,8 @@
 }
 
 .introduction .self-dis {
-    font-family: 'Mulish-Bold'; 
-    font-size: 20px;
+    font-family: 'NotoSansJP-Regular';
+    font-size: 16px;
     margin-top: 16px;
 }
 .self-dis a{
@@ -138,16 +142,16 @@
 
 /*Main-project*/
 .project {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap ;
-    margin-top: 100px;
+    margin: 100px auto 0px auto;
 }
 
 /*Main-project-component*/
 .work-frame{
-    width: 366px;
+    width: 580px;
     height: 450px;
     margin-bottom: 70px;
 
@@ -167,7 +171,7 @@
 }
 
 .work-image {
-    width: 366px;
+    width: 580px;
     height: 366px;
 }
 
@@ -176,15 +180,15 @@
 .work-image-container {
     position: absolute;
     margin: 0;
-    width: 366px;
+    width: 580px;
     height: 366px;
     display: flex;
     justify-content: center;
     overflow: hidden;
 }
 .imageInactive {
-    border-radius: 8px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    /*border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);*/
     background-color: white;
 }
 
@@ -199,14 +203,15 @@
     color: white !important;
     font-family: 'NotoSansJP-Bold';
     font-size: 20px;
-    width: 366px;
+    width: 580px;
     height: 366px;
     position: absolute;
     margin-top: 0;
     margin-left: 0;
     text-align: center;
     background-color: rgba(239,150,0,0.9);
-    background: linear-gradient(180deg, rgba(239,150,0,0.95), rgba(239,150,0,0.35) 100%);
+    /*background: linear-gradient(180deg, rgba(239,150,0,0.95), rgba(239,150,0,0.35) 100%);*/
+    
     visibility: hidden;
     display: flex;
     justify-content: center;
@@ -318,7 +323,7 @@
 /*style for Footer*/
 .footer {
     width: 100%;
-    background: #f4f4f4;
+    /*background: #f4f4f4;*/
     height: 200px;
     margin-bottom: 0;
     display: flex;
@@ -416,10 +421,11 @@
 }
 .about-img {
     margin: 0 auto 0 auto;
-    width: 40%;
+    text-align: center;
 }
 .about-img img{
-    width: 100%;
+    width: 40%;
+    min-width:200px;
 }
 
 .about-text p {
@@ -427,6 +433,9 @@
     font-size: 16px;
     color: #1f1f1f;
     text-align: left;
+}
+.highlight p{
+    color:#EF9600;
 }
 
 /*Art*/
@@ -483,6 +492,15 @@
     font-family: 'NotoSansJP-Black';
     font-size: 16px;
     margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.content-title-close-to-text {
+    text-transform: uppercase;
+    font-family: 'NotoSansJP-Black';
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 20px;
     opacity: 0.8;
 }
 
@@ -558,12 +576,14 @@
 }
 
 .shrink-img {
-    width: 80%;
+    width: 60%;
 }
 
 .full-img {
     width: 100%;
 }
+
+
 
 .img-shadow {
     box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.2);
@@ -589,7 +609,6 @@
     padding: 50px 0 50px 0;
 }
 
-/*cakevr*/
 .cakevr .grey {
     background: #250902;
     color: white;
@@ -679,6 +698,20 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/*mediascape style*/
+.mediascape .white {
+    background: white;
+    padding: 50px 0 50px 0;
+}
+
+.mediascape .lightgrey {
+    background: #f4f4f4;
+    padding: 50px 0 50px 0;
+}
+
+
 /*toogle*/
 .toggleBar {
     display: flex;
@@ -749,7 +782,8 @@
 
  /*self-response*/
 @media only screen and (max-width: 780px) {
-    .body {
+    .
+    {
         width: 90%;
     }
 }

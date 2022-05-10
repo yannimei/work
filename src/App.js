@@ -7,6 +7,7 @@ import Footer from './Footer';
 import CakeVR from './projects/CakeVR.js';
 import Ultimaker from './projects/Ultimaker.js';
 import DataDashboard from './projects/DataDashboard.js';
+import Mediascape from './projects/Mediascape.js';
 //first step
 import { BrowserRouter as Router, HashRouter, Route }from 'react-router-dom';
 
@@ -21,6 +22,7 @@ class App extends React.Component{
                     <Route path="/cakevr" component={CakeVR} />
                     <Route path="/ultimaker" component={Ultimaker} />
                     <Route path="/datadashboard" component={DataDashboard} />
+                    <Route path="/mediascape" component={Mediascape} />
                     <Footer />
                 </HashRouter>
             </div>

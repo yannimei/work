@@ -37,29 +37,13 @@ class About extends React.Component {
                         </div>
                         <div className="about-text">
                             <p>
-                                Hi, I am Yanni, an interaction designer at the Dutch National Institution of Mathematics and Computer Science. In addition, I used to work in leading user experience agencies (Bebit, 2019; designaffairs GmbH 2018), and academic research labs (Gamification Lab, TUDelft, 2019). Below is more about me :-)
-                        </p>
-
-                            <h3>From 0-1, envision to evaluation</h3>
-                            <p>
-                                I am experienced in designing from 0 to 1. In these projects, I walked through a coherent design process from user research, conceptualizing, prototyping, to evaluating. These projects included VR, mobile and desktop applications.
-                        </p>
-
-                            <h3>Prototyping with programming (Web & XR)</h3>
-                            <p>
-                                Since I am working in science institution, my design practice is always embedded in technology exploration. My focus in on XR development (C# for Unity, 3d production), and front-end development (React). I <a id="code-link" href="https://github.com/yannimei/work/tree/master" target="blank">code{"\uD83E\uDC65"}</a> this website by myself! My knowledge in coding enable me to better communicate about design visions and technology feasibility with developers.
-                        </p>
-
-                            <h3>Commercial & academic experience.</h3>
-                            <p>
-                                I have shipped real product in the commercial context. This experience enables me to collaborate well with product managers and efficiently deliver decent user interfaces. In addition, I am a HCI researcher with publication. Academic practices enable me to combine qualitative and quantitative methods in user tests.
-                        </p>
-                            <p>Feel free to contact me for more questions or collaboration opportunities.</p>
+                                Hi! Here is Yanni! I have been living in China and am now based in the Netherlands. This experience shaped who I am and how I think. I got emotional sensitivity and good analytical thinking from Chinese education (yup, I used to be a math nerd). And in NL, I am getting more sharp, open-minded, and confident. So for now, I decide to stay in Europe, and explore more challenges, fun experience, and most importantly, myself.
+                            </p>
+                        </div>
+                        <div className="highlight about-text">
+                            <p>Feel free to contact me for more questions, and fun or challenging opportunities.</p>
                         </div>
                     </section>
-                </div>
-                <div className="art-img-container">
-
                 </div>
             </div>
         );
